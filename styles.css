@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* align-itmes: center (Centers to the middle of the page)
+    height: 100vh (viewport height) **/
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+/* user-select: none; (Removes the blue highlight when trying to click)**/
+.emoji {
+    font-size: 10rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.closed {
+    display: none; 
+}
+
+.open {
+    display: none; 
+}
+
+.active {
+    display: block; 
+}
